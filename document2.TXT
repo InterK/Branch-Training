@@ -1,5 +1,5 @@
-h = int(input('시간을 적으시오 : '))
-m = int(input('분을 적으시오 : '))
-s = int(input('초을 적으시오 : '))
-e = h * 3600 + m * 60 + s
-print(h, '시간', m, '분', s, '초는', e, '초 입니다.')
+e = int(input('초를 적으시오 : '))
+hour = e
+min = e % 3600
+sec = e % 60
+print(e, '초는', hour, '시간', min, '분', sec, '초', '입니다.')
