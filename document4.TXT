@@ -1,0 +1,10 @@
+import turtle as t
+import random
+
+t.shape('turtle')
+
+for i in range(30):
+    d = random.randint(-70, 70)
+    a = random.randint(-170, 170)
+    t.forward(d)
+    t.left(a)
