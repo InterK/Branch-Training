@@ -1,5 +1,6 @@
 import turtle as t
 t.shape('turtle')
+
 n = int(input('어떤 각형을 그리시겠습니까? : '))
 
 for i in range(n):
